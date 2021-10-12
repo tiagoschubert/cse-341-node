@@ -47,8 +47,8 @@ mongoose.connect(MONGODB_URL)
     User.findOne().then(user => {
         if(!user){
             const user = new User({
-                name:'Alex',
-                email: 'alex@tesr.com',
+                name:'tiago',
+                email: 'tiago@tesr.com',
                 cart: {
                     items: []
                 }
