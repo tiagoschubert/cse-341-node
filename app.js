@@ -48,7 +48,7 @@ mongoose.connect(MONGODB_URL)
         if(!user){
             const user = new User({
                 name:'tiago',
-                email: 'tiago@tesr.com',
+                email: 'tiago@test.com',
                 cart: {
                     items: []
                 }
