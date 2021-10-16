@@ -40,7 +40,7 @@ const corsOptions = {
 };
 app.use(cors(corsOptions));
 
-const MONGODB_URL = process.env.MONGODB_URL || "mongodb+srv://<username>:<username>@cse341cluster-3dwlw.mongodb.net/test?retryWrites=true&w=majority";
+const MONGODB_URL = process.env.MONGODB_URL || "mongodb+srv://tiago:<password>@cse341.ujizl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 mongoose.connect(MONGODB_URL)
 .then(result => {
